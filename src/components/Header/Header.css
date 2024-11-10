@@ -1,0 +1,35 @@
+.nav{
+    margin: 0 50px;
+}
+.nav-logo img{
+    width: 60px;
+}
+.nav-menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    font-size: 30px;
+    list-style: none;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.nav-menu ul li{
+    color: #F5F5F5;
+    cursor: pointer;
+}
+.nav-login{
+    font-size: 25px;
+    margin-top: 5px;
+}
+@media (max-width: 768px){
+    .container{
+      width: 90%;
+    }
+    .nav-menu ul{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .mobile-fd-column{
+      flex-direction: column;
+    }
+  }
