@@ -5,6 +5,7 @@ function ComoFunciona(){
     return (
         <div>
             <Header/>
+                
             <Footer/>
         </div>
     )

@@ -4,8 +4,6 @@ import Home from './pages/Home.jsx'
 import ComoFunciona from './pages/ComoFunciona.jsx'
 import Contato from './pages/Contato.jsx'
 
-//Componente Footer
-import Footer from '../src/components/Footer/Footer.jsx'
 
 function App() {
   return (
