@@ -16,10 +16,10 @@ a{
   background-color: #2A3D45;
 }
 .primary-color{
-  color: #f5f5f5;
+  color: #F5F5F5;
 }
 .secondary-backgroung{
-  background-color: #1D1D1D;
+  background-color: #E3E3E3;
 }
 .tertiary-color{
   color: #f6f6f6;
@@ -28,7 +28,7 @@ a{
   background-color: #f6f6f6;
 }
 .gray-1-color{
-  color: #4D5053;
+  color: #4F4F4F;
 }
 
 /*FORM*/
@@ -74,7 +74,7 @@ a{
   box-sizing: border-box;
   margin: 0 auto;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1540px;
   position: Relative;
   padding: 0 30px;
 }

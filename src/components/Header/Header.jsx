@@ -11,15 +11,15 @@ function Header(){
                 <div className="nav-logo d-flex">
                     <img src={logo}></img>
                 </div>
-                <div className="nav-menu primary-color">
+                <div className="nav-menu">
                     <ul>
-                        <li><Link to={"/"}>Home</Link></li>
-                        <li><Link to={"/comofunciona"}>Como Funciona</Link></li>
-                        <li><Link to={"/contato"}>Contato</Link></li>
+                        <li><Link to={"/"} className='primary-color'>Home</Link></li>
+                        <li><Link to={"/comofunciona"} className='primary-color'>Como Funciona</Link></li>
+                        <li><Link to={"/contato"} className='primary-color'>Contato</Link></li>
                     </ul>
                 </div>
-                <div className="nav-login d-flex align-center primary-color">
-                    <p><Link to="/">Entre ou Cadastre-se</Link></p>
+                <div className="nav-login d-flex align-center">
+                    <p><Link to="/" className='primary-color'>Entre ou Cadastre-se</Link></p>
                 </div>       
             </div>
         </div>

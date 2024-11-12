@@ -7,9 +7,7 @@ function Contato(){
     return (
         <>
             <Header/>
-            <h1>
-                AQUI VAI OS ITENS
-            </h1>
+                
             <Footer/>
         </>
     )

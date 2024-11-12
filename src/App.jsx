@@ -7,7 +7,6 @@ import Contato from './pages/Contato.jsx'
 //Componente Footer
 import Footer from '../src/components/Footer/Footer.jsx'
 
-
 function App() {
   return (
     < Router>

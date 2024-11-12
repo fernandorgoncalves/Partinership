@@ -13,10 +13,8 @@
     padding: 0 20px;
     text-decoration: none;
 }
-.nav-menu ul li{
-    color: #F5F5F5;
-    cursor: pointer;
-}
+
+
 .nav-login{
     font-size: 25px;
     margin-top: 5px;
