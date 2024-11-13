@@ -3,13 +3,13 @@ import "./Presentation.css"
 import Button from "../Button/Button";
 
 //ASSETS
-import venda from "../../assets/Presentation.svg"
+import venda from "../../assets/presentation.svg"
 import arrow from "../../assets/arrow.svg"
 
 function Presentation(){
     return(
         <div className="secondary-backgroung">
-          <div className=" prensentation-container container d-flex ">
+          <div className=" container d-flex ">
             <div className="presentation-text d-flex fd-column">
                 <h1>Partnership</h1>
                 <TextAll text="O programa de fidelidade da Partnership permite que, a cada 

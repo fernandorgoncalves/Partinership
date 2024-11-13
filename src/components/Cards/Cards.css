@@ -1,7 +1,7 @@
 .card{
-    background-color: #ccc;
-    background-position: center;
-    background-size: cover;
-    height: 356px;
-    width: 100%;
+    width: 25%;
+    min-height: 220px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
 }

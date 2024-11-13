@@ -7,6 +7,7 @@ body{
   font-weight: 400;
   color: #292F36;
   background-color: #fff;
+  
 }
 a{
   text-decoration: none;
@@ -16,6 +17,12 @@ a{
   background-color: #2A3D45;
 }
 .primary-color{
+  color: #F5F5F5;
+}
+.grey-backgroud{
+  background-color: #F5F5F5;
+}
+.grey-color{
   color: #F5F5F5;
 }
 .secondary-backgroung{
