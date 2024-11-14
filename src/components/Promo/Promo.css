@@ -1,7 +1,10 @@
 .container-promo{
-    padding: 80px 0;
-    gap: 20px;
+    padding: 50px 0;
+    gap: 30px;
     }
 .container-promo img{
-    width: 50px;
+    width: 30px;
+}
+.promo-star-promo{
+    gap: 10px;
 }

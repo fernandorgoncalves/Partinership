@@ -8,10 +8,10 @@ function Premios(){
                 <div>
                     <h2>Premios</h2>
                 </div>
-                <div className="d-flex jc-center fd-row jc-space-between">
-                <Cards image="mickey.svg"></Cards>  
-                <Cards image="mickey.svg"></Cards>  
-                <Cards image="mickey.svg"></Cards>
+                <div className=" d-flex jc-center fd-row jc-space-between">
+                    <Cards image="mickey.svg"></Cards>  
+                    <Cards image="mickey.svg"></Cards>  
+                    <Cards image="mickey.svg"></Cards>
                 </div>
             </div>
         </div>

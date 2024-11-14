@@ -1,7 +1,7 @@
 .footer{
     height: 200px;
     place-items: center center;
-    padding: 150px 105px;
+    padding: 100px 0px;
     width: 100%;
     gap: 15px;
 }
@@ -10,24 +10,24 @@
     gap:15px;
 }
 .footer-img-txt h2{
-    font-size: 25px;
+    font-size: 20px;
 }
 .footer h3{
-    font-size: 20px;
+    font-size: 15px;
 }
 .footer p{
     color: #F5F5F5;
-    font-size: 20PX;
+    font-size: 15PX;
     line-height: 10px;
 }
 .footer img{
-    width: 60px;
+    width: 50px;
 }
 .footer-rede{
     gap: 15px;
 }
 .footer-redes-img img{
-    width: 50px;
+    width: 30px;
     margin-right: 40px;
 }
 @media (max-width: 768px){

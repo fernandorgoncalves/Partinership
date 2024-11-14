@@ -80,8 +80,8 @@ a{
 .container{
   box-sizing: border-box;
   margin: 0 auto;
-  width: 80%;
-  max-width: 2049px;
+  width: 100%;
+  max-width: 1200px;
   position: Relative;
   padding: 0 30px;
 }

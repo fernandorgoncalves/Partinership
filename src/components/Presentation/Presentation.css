@@ -3,6 +3,9 @@
     padding-right:270px ;
     gap:30px;
 }
+.arrow-img{
+    width: 10px;
+}
 .img-fluid{
     width: 280px;
     margin: 100px 0;
@@ -11,6 +14,9 @@
     gap:20px;
 }
 .text-p{
-    font-size: 25PX;
+    font-size: 15px;
     color:#4F4F4F;
+}
+.btn-presentation{
+    width: 500px;
 }
