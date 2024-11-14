@@ -8,3 +8,11 @@
     font-size: 40px;
     text-align: center;
 }
+@media (max-width: 768px){
+    .container{
+      width: 90%;
+    }
+    .mobile-fd-column{
+      flex-direction: column;
+    }
+  }
