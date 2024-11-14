@@ -1,7 +1,7 @@
 .footer{
     height: 200px;
     place-items: center center;
-    padding: 150px 0;
+    padding: 150px 105px;
     width: 100%;
     gap: 15px;
 }

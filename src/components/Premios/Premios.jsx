@@ -4,7 +4,7 @@ import "./Premios.css"
 function Premios(){
     return(
         <div className="grey-backgroud">
-            <div className=" container-premios container d-flex jc-center fd-column">
+            <div className="container container-premios  d-flex jc-center fd-column">
                 <div>
                     <h2>Premios</h2>
                 </div>

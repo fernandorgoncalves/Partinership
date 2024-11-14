@@ -81,7 +81,6 @@ a{
   box-sizing: border-box;
   margin: 0 auto;
   width: 80%;
-  max-width: 1440px;
   position: Relative;
   padding: 0 30px;
 }

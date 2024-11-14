@@ -11,7 +11,7 @@ function Home(){
             <Header/>
             <Presentation/>
             <Promo/>
-            <Premios/>
+            <Premios classname="container"/>
             <Footer/>
         </>
     )
