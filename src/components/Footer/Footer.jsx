@@ -13,31 +13,33 @@ import facebook from "../../assets/facebook.svg"
 function Footer(){
     return (
         <div className="primary-background">
-            <div className="footer container d-flex jc-space-between">
+                <div className="footer container d-flex fd-row jc-space-between">
                 <div className="footer-img-txt d-flex">
                     <img src={logo}/>
                     <h2>Partineship</h2>
                 </div>
-                <div className="d-flex fd-column">
-                    <h3>Programa</h3>
-                    <p>Como Funciona</p>
-                </div>
-                <div className=" d-flex fd-column">
-                    <h3>Ajuda</h3>
-                <div className="footer-ajuda-p">
-                    <p>Fale Conosco</p>
-                    <p>Quero me tornar um parceiro</p>
-                </div>
-                </div>
-                <div className="footer-redes d-flex fd-column">
+                    <div>
+                        <h3>Programa</h3>
+                        <div>
+                            <p>Como Funciona</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Ajuda</h3>
+                        <div>
+                            <p>Fale Conosco</p>
+                            <p>Quero me tornar um parceiro</p>
+                        </div>
+                    </div>
+                    <div className="footer-rede d-flex fd-column">
                        <h3>Confira nossas Redes</h3>
-                    <div className="footer-redes-img d-flex jd-space-between">
+                    <div className="footer-redes-img img">
                         <img src={instagram}/>
                         <img src={whatsapp}/>
                         <img src={facebook}/>
                     </div>
                 </div>
-            </div>
+                </div>
         </div>
     )
 }

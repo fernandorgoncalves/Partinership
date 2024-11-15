@@ -1,0 +1,21 @@
+.container-premios{
+    width: 100%;
+    padding: 70px 0px;    
+    gap: 40px;
+}
+.container-premios h2{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+.premios-cards{
+    gap: 15px;
+}
+@media (max-width: 768px){
+    .container{
+      width: 90%;
+    }
+    .mobile-fd-column{
+      flex-direction: column;
+    }
+  }

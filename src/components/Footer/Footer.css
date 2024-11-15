@@ -1,32 +1,35 @@
 .footer{
     height: 200px;
-    align-items: center;
+    place-items: center center;
+    padding: 100px 0px;
+    width: 100%;
+    gap: 15px;
 }
 .footer-img-txt{
     align-items: center;
     gap:15px;
 }
 .footer-img-txt h2{
-    font-size: 25px;
+    font-size: 20px;
 }
-p{
+.footer h3{
+    font-size: 15px;
+}
+.footer p{
     color: #F5F5F5;
-    
+    font-size: 15PX;
+    line-height: 10px;
 }
 .footer img{
-    width: 60px;
+    width: 50px;
 }
-.footer-redes{
-    gap:15px;
+.footer-rede{
+    gap: 15px;
 }
-.footer-ajuda-p {
-    line-height: 12px;
-}
-.footer-redes img{
-    width: 40px;
+.footer-redes-img img{
+    width: 30px;
     margin-right: 40px;
 }
-
 @media (max-width: 768px){
     .container{
       width: 90%;
