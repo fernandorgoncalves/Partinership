@@ -19,7 +19,7 @@ function Header(){
                     </ul>
                 </div>
                 <div className="nav-login d-flex align-center">
-                    <p><Link to="/" className='primary-color'>Entre ou Cadastre-se</Link></p>
+                    <p><Link to="/login" className='primary-color'>Entre ou Cadastre-se</Link></p>
                 </div>       
             </div>
         </div>

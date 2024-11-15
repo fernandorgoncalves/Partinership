@@ -1,14 +1,11 @@
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
 import TelaDeLogin from "../components/TelaDeLogin/TelaDeLogin";
 
-function Cadastro(){
+
+function Login(){
     return (
         <div>
-            <Header/>
             <TelaDeLogin/>
-            <Footer/>
         </div>
     )
 }
-export default Cadastro;
+export default Login;
