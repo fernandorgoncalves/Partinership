@@ -16,7 +16,7 @@ function Header(){
                         <li><Link to={"/"} className='primary-color'>Home</Link></li>
                         <li><Link to={"/comofunciona"} className='primary-color'>Como Funciona</Link></li>
                         <li><Link to={"/contato"} className='primary-color'>Contato</Link></li>
-                        <li><Link to="/" className='primary-color'>Entre ou Cadastre-se</Link></li>
+                        <li><Link to={"/login"} className='primary-color'>Entre ou Cadastre-se</Link></li>
                     </ul>
                 </div>      
             </div>

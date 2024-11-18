@@ -3,22 +3,29 @@ import logo from "../../assets/logo.svg"
 
 function TelaDeLogin() {
     return (
-        <div className="tela-login">
-            <div id="LogoAndTitle">
-                <img src={logo} />
-                <h1>Entrar</h1>
+        <div className="container container-login">
+            <div className="ImgAndTitle text-center">
+                <img src={logo}></img>
+                <h1 className=".h1,h2,h3,h4,h5,h6">Entrar</h1>
             </div>
-            <div className="secao-form">
+            <div className="container ">
                 <form action="">
-                    <label id="primeira-label">E-mail ou CPF:</label> <br />
-                    <input type="text" placeholder="Digite Aqui" required/> <br />
-                    <label id="segunda-label">Senha:</label> <br />
-                    <input type="password" placeholder="Digite Aqui" required/>
+                    <div className="container input-form form-input">
+                        <div className="d-flex fd-column al-center">
+                            <label id="label-text">E-mail ou CPF:</label>
+                            <input type="email" id="email" name="email" placeholder="Digite Aqui" required/>
+                        </div>
+                        <div className="d-flex fd-column al-center">
+                           <label id="label-password">Senha:</label>
+                            <input type="password" id="senha" name="senha" placeholder="Digite Aqui" required/>
+                        </div>
+                        <div className="d-flex fd-column al-center">
+                            <button className="btn-animado al-center" type="submit">Entrar</button>
+                        </div>  
+                    </div>
                 </form>
-                <button type="submit">Entrar</button>
             </div>
         </div>
-
-    )
+)
 }
 export default TelaDeLogin;

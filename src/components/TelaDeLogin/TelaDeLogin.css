@@ -5,61 +5,87 @@
     outline: 0;
 }
 
-.tela-login {
-    display: grid;
-    grid-column: auto;
-    border: 1px solid;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 20px;
+.container-login{
+    height: 610px;
 }
 
-#LogoAndTitle {
-    text-align: center;
-    padding-top: 100px;
+.ImgAndTitle{
+    padding-top: 50px;
+    margin-bottom: 30px;
 }
 
-#LogoAndTitle h1{
-    padding-top: 15px;
-    font-size: 40px;
-    font-weight: 600;
-    font-family: "Jost", serif;
-}
-
-.secao-form{
-   text-align: center; 
-   margin-top: 35px;
-   padding-bottom: 50px;
-}
-
-input{
-    width: 260px;
-    height: 40px;
+.input-form{
     border: 0;
-    border-radius: 5px;
+    height: 250px;
 }
 
-label{
-    font-size: 20px;
+.input-form input{
+    width: 300px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding-left: 10px;
+    color: #4F4F4F;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+#label-text{
+    padding-right: 150px;
     font-weight: bolder;
 }
 
-#primeira-label{
-    padding-right: 125px;
-}
-
-#segunda-label{
-    padding-right: 195px;
+#label-password{
+    padding-right: 225px;
+    font-weight: bolder;
+    margin-top: 15px;
 }
 
 button{
-    margin-top: 30px;
-    width: 220px;
+    margin-top: 20px;
+    width: 250px;
     height: 50px;
-    background-color:#2b3d52;;
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
-    border: 0;
-    border-radius: 5px;
+    background-color: #1f3d5e;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.2);
 }
+
+    .btn-animado::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        width: 300%;
+        height: 300%;
+        background-color: rgba(255, 255, 255, 0.15);
+        border-radius: 50%;
+        transition: transform 0.6s ease;
+    }
+
+    .btn-animado:hover::before {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    .btn-animado:hover {
+        background-color: #4F4F4F;
+        box-shadow: 0 12px 20px rgba(0, 123, 255, 0.3);
+        transform: translateY(-2px);
+    }
+
+    .btn-animado:active {
+        transform: translateY(2px);
+        box-shadow: 0 5px 10px rgba(0, 123, 255, 0.2);
+    }
+
