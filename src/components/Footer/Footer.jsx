@@ -34,7 +34,7 @@ function Footer(){
                     <div className="footer-rede d-flex fd-column">
                        <h3>Confira nossas Redes</h3>
                     <div className="footer-redes-img img">
-                        <img src={instagram}/>
+                        <img src={instagram} className="instagram"/>
                         <img src={whatsapp}/>
                         <img src={facebook}/>
                     </div>
