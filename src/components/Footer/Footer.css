@@ -23,6 +23,9 @@
 .footer img{
     width: 50px;
 }
+.instagram{
+    background-image: url(${instagram.svg});
+}
 .footer-rede{
     gap: 15px;
 }

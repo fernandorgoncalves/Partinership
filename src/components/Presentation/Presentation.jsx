@@ -1,6 +1,8 @@
 import TextAll from "../TextAll/TextAll";
 import "./Presentation.css"
 import Button from "../Button/Button";
+import {Link} from 'react-router-dom'
+
 
 //ASSETS
 import venda from "../../assets/presentation.svg"
@@ -18,7 +20,7 @@ function Presentation(){
                   ></TextAll>
                 <div className="btn-arrow d-flex al-center">
                   <Button  button="Cadastre-se"></Button>
-                  <TextAll  textp="Como funciona"></TextAll>
+                  <p className="primary-color comofunciona "><Link to={"/comofunciona"} className="gray-1-color">Como funciona</Link></p>
                   <img src={arrow} className="arrow-img"/>
                 </div>
             </div>
