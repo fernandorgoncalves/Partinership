@@ -37,6 +37,9 @@ a{
 .gray-1-color{
   color: #4F4F4F;
 }
+.gray-1-background{
+  background-color: #4F4F4F;
+}
 
 /*FORM*/
 .form-input{

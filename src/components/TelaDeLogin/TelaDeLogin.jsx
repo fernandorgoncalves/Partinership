@@ -1,5 +1,8 @@
 import "./TelaDeLogin.css"
 import logo from "../../assets/logo.svg"
+import Button from "../Button/Button"
+
+
 
 function TelaDeLogin() {
     return (
@@ -15,7 +18,7 @@ function TelaDeLogin() {
                     <label id="segunda-label">Senha:</label> <br />
                     <input type="password" placeholder="Digite Aqui" required/>
                 </form>
-                <button type="submit">Entrar</button>
+                <Button button="Entrar" className="button"></Button>
             </div>
         </div>
 
