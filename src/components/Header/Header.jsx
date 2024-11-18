@@ -18,7 +18,14 @@ function Header(){
                         <li><Link to={"/contato"} className='primary-color'>Contato</Link></li>
                         <li><Link to="/" className='primary-color'>Entre ou Cadastre-se</Link></li>
                     </ul>
+<<<<<<< HEAD
+                </div>
+                <div className="nav-login d-flex align-center">
+                    <p><Link to="/login" className='primary-color'>Entre ou Cadastre-se</Link></p>
+                </div>       
+=======
                 </div>      
+>>>>>>> 02e78a1790e33c71c0715924930817942ff60c9d
             </div>
         </div>
     )
