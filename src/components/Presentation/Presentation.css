@@ -5,6 +5,7 @@
 }
 .arrow-img{
     width: 10px;
+    padding-top: 25px;
 }
 .img-fluid{
     width: 280px;
@@ -24,4 +25,9 @@
         color:#4F4F4F;
         font-size: 20px;
         font-weight: 600;
+        padding-top: 25px;
+}
+.comofunciona:hover{
+    transition: 0.7s;
+    font-size: 22px;
 }

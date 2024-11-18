@@ -10,7 +10,6 @@ function Home(){
         <>
             <Header/>
             <Presentation/>
-            <Promo/>
             <Premios classname="container"/>
             <Footer/>
         </>
