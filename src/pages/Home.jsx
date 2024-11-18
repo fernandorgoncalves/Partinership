@@ -7,13 +7,13 @@ import Promo from "../components/Promo/Promo";
 
 function Home(){
     return (
-        <>
+        <div>
             <Header/>
             <Presentation/>
             <Promo/>
             <Premios classname="container"/>
             <Footer/>
-        </>
+        </div>
     )
 }
 export default Home;

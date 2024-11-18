@@ -13,14 +13,14 @@ function TelaDeLogin() {
                     <div className="container input-form form-input">
                         <div className="d-flex fd-column al-center">
                             <label id="label-text">E-mail ou CPF:</label>
-                            <input type="email" id="email" name="email" placeholder="Digite Aqui" required/>
+                            <input type="email" id="email" name="email" placeholder="Ex: joao@gmail.com" required/>
                         </div>
                         <div className="d-flex fd-column al-center">
                            <label id="label-password">Senha:</label>
-                            <input type="password" id="senha" name="senha" placeholder="Digite Aqui" required/>
+                            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required/>
                         </div>
                         <div className="d-flex fd-column al-center">
-                            <button className="btn-animado al-center" type="submit">Entrar</button>
+                            <button className="btn-animado" type="submit">Entrar</button>
                         </div>  
                     </div>
                 </form>
