@@ -14,10 +14,14 @@
     text-decoration: none;
     padding-top: 45px;
 }
+.nav-link{
+    font-size: 25px;
+    font-weight: 400;
+}
 .nav-link:hover{
     color: rgb(230, 205, 98);
     transition: 0.7s;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 @media (max-width: 768px){

@@ -16,7 +16,7 @@ function Footer(){
                 <div className="footer container d-flex fd-row jc-space-between">
                 <div className="footer-img-txt d-flex">
                     <img src={logo}/>
-                    <h2>Partineship</h2>
+                    <h2>Partnership</h2>
                 </div>
                     <div>
                         <h3>Programa</h3>

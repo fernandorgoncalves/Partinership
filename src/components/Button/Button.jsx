@@ -1,10 +1,10 @@
 import './Button.css'
 
-function Button(props){
+function Button(props, button){
     return (
         <>
         <div>
-            <button className='btn '>{props.button}</button>
+            <button className='btn'>{props.button}</button>
         </div>
         </>
     )

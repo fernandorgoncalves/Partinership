@@ -1,65 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
+.login{
+    background-color: #e3e3e3;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-login{
+    width: 600px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 40px 0;
     box-sizing: border-box;
-    outline: 0;
+    box-shadow: 0 0 10px 0 black;
 }
-
-.tela-login {
-    display: grid;
-    grid-column: auto;
-    border: 1px solid;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 20px;
+.container-login img{
+    width: 50px;
 }
-
-#LogoAndTitle {
-    text-align: center;
-    padding-top: 100px;
+form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 45px 0;
+    gap: 50px;
 }
-
-#LogoAndTitle h1{
-    padding-top: 15px;
-    font-size: 40px;
+form label{
+    font-size: 20px;
     font-weight: 600;
-    font-family: "Jost", serif;
 }
-
-.secao-form{
-   text-align: center; 
-   margin-top: 35px;
-   padding-bottom: 50px;
+form input{
+    width: 400px;
+    min-height: 60px;
+    background-color: #e3e3e3;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 0 0 0 30px;
 }
-
-input{
-    width: 260px;
-    height: 40px;
-    border: 0;
-    border-radius: 5px;
+form input:focus{
+    outline: none;
 }
-
-label{
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-#primeira-label{
-    padding-right: 125px;
-}
-
-#segunda-label{
-    padding-right: 195px;
-}
-
-button{
-    margin-top: 30px;
-    width: 220px;
+form input::placeholder{
+    font-size: 20px; 
+    background-color: #e3e3e3; 
     height: 50px;
-    background-color:#2b3d52;;
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
-    border: 0;
-    border-radius: 5px;
+    padding: 0 0 0 20px;   
 }

@@ -7,7 +7,6 @@ body{
   font-weight: 400;
   color: #292F36;
   background-color: #fff;
-  
 }
 a{
   text-decoration: none;
@@ -84,7 +83,7 @@ a{
   box-sizing: border-box;
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1370px;
   position: Relative;
   padding: 0 30px;
 }
