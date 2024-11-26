@@ -1,0 +1,31 @@
+.container-text{
+    gap: 30px;
+    padding: 40px 0;
+}
+.container-text h1{
+    font-size: 40px;
+}
+.container-text p{
+    font-size: 25px;
+}
+.container-button{
+    gap: 15px;
+    align-items: center;
+}
+.container-button span{
+    font-size: 20px;
+    padding-top: 25px;
+}
+.container-button  img{
+    padding-top: 25px;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+.container-img img{
+    width: 350px;
+    align-items: end;
+}

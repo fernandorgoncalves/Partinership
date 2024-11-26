@@ -1,9 +1,8 @@
 import Footer from "../components/Footer/Footer";
+import Beneficios from "../components/Home/Beneficios/Beneficios";
+import Presentation from "../components/Home/Presentation/Presentation";
 import Header from "../components/Header/Header";
-import Premios from "../components/Premios/Premios";
-import Presentation from "../components/Presentation/Presentation"
-import Promo from "../components/Promo/Promo";
-
+import Promo from "../components/Home/Promo/Promo";
 
 function Home(){
     return (
@@ -11,7 +10,6 @@ function Home(){
             <Header/>
             <Presentation/>
             <Promo/>
-            <Premios classname="container"/>
             <Footer/>
         </div>
     )

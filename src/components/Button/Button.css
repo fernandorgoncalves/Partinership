@@ -3,9 +3,16 @@
     height: 60px;
     border-radius: 10px;
     border: none;
-    background-color: #4F4F4F;
+    background-color: #2A3D45;
     color: #F5F5F5 ;
     font-weight: 800;
     font-size:18px;
     cursor: pointer;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: 0.9s;
+    background-color: #2e505f;
+    width: 420px;
 }

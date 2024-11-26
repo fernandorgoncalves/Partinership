@@ -1,0 +1,13 @@
+.container-beneficios{
+   padding: 70px 0;
+}
+.container-cards{
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.img-beneficios{
+    width: 300px;
+}
+.arrow-beneficios{
+    cursor: pointer;
+}
