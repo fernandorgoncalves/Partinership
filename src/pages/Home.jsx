@@ -6,12 +6,12 @@ import Promo from "../components/Home/Promo/Promo";
 
 function Home(){
     return (
-        <>
+        <div>
             <Header/>
             <Presentation/>
             <Promo/>
             <Footer/>
-        </>
+        </div>
     )
 }
 export default Home;
