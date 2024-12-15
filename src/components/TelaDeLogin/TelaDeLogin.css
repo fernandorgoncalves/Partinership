@@ -2,19 +2,19 @@
     background-color: #e3e3e3;
     height: 700px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 .container-login{
     width: 600px;
     height: 650px;
     border-radius: 10px;
     background-color: white;
-    padding: 40px 0;
     box-sizing: border-box;
     box-shadow: 0 0 10px 0 black;
 }
-main
 .container-login img{
     width: 50px;
 }
@@ -22,8 +22,7 @@ form{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    padding: 45px 0;
-    gap: 50px;
+    gap: 30px;
 }
 form label{
     font-size: 20px;
@@ -131,5 +130,3 @@ button{
         transform: translateY(2px);
         box-shadow: 0 5px 10px rgba(0, 123, 255, 0.2);
     }
-
-  main
