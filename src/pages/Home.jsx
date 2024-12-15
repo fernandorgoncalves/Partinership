@@ -8,13 +8,13 @@ import Carrossel from "../components/Carrousel/Carrossel";
 
 function Home(){
     return (
-        <>
+        <div>
             <Header/>
             <Carrossel/>
             <Presentation/>
             <Promo/>
             <Footer/>
-        </>
+        </div>
     )
 }
 export default Home;
