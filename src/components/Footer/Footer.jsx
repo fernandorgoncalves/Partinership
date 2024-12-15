@@ -22,6 +22,7 @@ function Footer(){
                         <h3>Programa</h3>
                         <div>
                             <p>Como Funciona</p>
+                            <p className="invisible">Como Funciona</p>
                         </div>
                     </div>
                     <div>

@@ -33,6 +33,10 @@
     width: 30px;
     margin-right: 40px;
 }
+.invisible{
+    color: #2A3D45;
+    background-color: #2A3D45;
+}
 @media (max-width: 768px){
     .container{
       width: 90%;

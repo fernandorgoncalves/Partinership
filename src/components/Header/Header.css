@@ -1,27 +1,29 @@
-.container-nav{
+.nav-menu{
     width: 100%;
-    height: 130px;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
 }
-.nav{
-    margin: 0 50px;
+.nav-menu img{
+    width: 40px;
 }
-.nav-logo img{
-    width: 50px;
+.t-partner, .t-partner  p{
+    gap: 10px;
+    font-size: 20px;
+    
 }
 .nav-menu ul{
-    font-size: 20px;
     list-style: none;
     text-decoration: none;
-    padding-top: 45px;
+
 }
 .nav-link{
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 400;
 }
 .nav-link:hover{
     color: rgb(230, 205, 98);
     transition: 0.7s;
-    font-size: 30px;
 }
 
 @media (max-width: 768px){

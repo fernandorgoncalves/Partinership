@@ -8,16 +8,19 @@ function Header(){
     return (
         <section className="primary-background">
             <div className="container">
-                <nav className=" container-nav nav-menu nav-logo ">
-                    <ul className='d-flex al-center jc-space-between jc-center '>
+                <nav>
+                    <ul className=' nav-menu d-flex fd-row jc-space-between al-center '>
+                        <div className='d-flex fd-row al-center t-partner'>
                         <img src={logo}></img>
+                        <p className='tertiary-color'>Partinership</p>
+                        </div>
                         <li><Link to={"/"} className='primary-color nav-link'>Home</Link></li>
                         <li><Link to={"/comofunciona"} className='primary-color nav-link'>Como Funciona</Link></li>
                         <li><Link to={"/contato"} className='primary-color nav-link'>Contato</Link></li>
                         <li><Link to="/login" className='primary-color nav-link'>Entre ou Cadastre-se</Link></li>
                     </ul>
                 </nav>      
-            </div>
+                </div>
         </section>
     )
 }

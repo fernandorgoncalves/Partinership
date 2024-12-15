@@ -11,9 +11,8 @@ import { Link } from "react-router-dom"
 function Presentation(){
     return(
         <section className="secondary-backgroung ">
-          <div  className="container d-flex">
+          <div  className="container d-flex container-presentation">
             <div className="container-text d-flex fd-column">
-                  <h1>Partinership</h1>
                     <p>
                      Um Programa de pontuação que preza pela parceria, onde o
                      principal objetivo é cuidar do relacionamento comercial, pois
@@ -23,8 +22,10 @@ function Presentation(){
                     </p>
                     <div className="container-button d-flex fd-row">
                       <Button button="Cadastre-se"/>
+                      <div className="container-arrow d-flex fd-row">
                       <span><Link to={"/comofunciona"} className='gray-1-color'>Como Funciona</Link></span>
                       <img src={arrow} alt="" />
+                      </div>
                     </div>
             </div>
             <div className="container-img d-flex">
