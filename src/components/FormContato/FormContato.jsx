@@ -23,7 +23,6 @@ function FormContato(){
                 </form>
                     <Button button="Enviar"/>
             </div>
-
         </section>
     )
 }
