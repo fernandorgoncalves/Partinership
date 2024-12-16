@@ -1,7 +1,7 @@
 import Button from "../Button/Button";
-import "./Contatos.css"
+import "./FormContato.css"
 
-function Contatos(){
+function FormContato(){
     return(
         <section className="d-flex section-contatos">
             <div className="container d-flex fd-column jc-center al-center">
@@ -27,4 +27,4 @@ function Contatos(){
         </section>
     )
 }
-export default Contatos;
+export default FormContato;

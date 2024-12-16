@@ -22,7 +22,10 @@ function TelaDeLogin() {
             <label>Senha</label>
             <input type="password" placeholder="Digite sua senha" required />
           </div>
-          <Button button="Entrar" className="btn-login"></Button>
+          <Button button="Entrar" className="btn-login"
+          
+          
+          ><Link to={"/pontosusuarios"} ></Link></Button>
         </form>
       </div>
     </div>

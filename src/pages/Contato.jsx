@@ -1,19 +1,14 @@
-import Footer from "../components/Footer/Footer";
-import Contatos from "../components/Contato/Contatos";
-import Header from "../components/Header/Header";
-import Contato from "../components/Contato/Contato"
+import Header from "../components/Header/Header"
+import Footer from "../components/Footer/Footer"
+import FormContato from "../components/FormContato/FormContato";
 
-function Contatos(){
-    return (
+function Contato(){
+    return(
         <div>
             <Header/>
-     main
-                <Contatos/>
-
-                <Contato/>    
-     main
+            <FormContato/>
             <Footer/>
         </div>
     )
 }
-export default Contatos;
+export default Contato;
