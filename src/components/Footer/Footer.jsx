@@ -9,7 +9,6 @@ import whatsapp from "../../assets/whatsapp.svg"
 import facebook from "../../assets/facebook.svg"
 
 
-
 function Footer(){
     return (
         <div className="primary-background">
@@ -20,9 +19,9 @@ function Footer(){
                 </div>
                     <div>
                         <h3>Programa</h3>
-                        <div>
+                        <div className="footer-links d-flex fd-column">
                             <p>Como Funciona</p>
-                            <p className="invisible">Como Funciona</p>
+                            <p className="invisible"></p>
                         </div>
                     </div>
                     <div>

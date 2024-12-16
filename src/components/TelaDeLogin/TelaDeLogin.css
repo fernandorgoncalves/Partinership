@@ -22,7 +22,7 @@ form{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    gap: 30px;
+    gap: 20px;
 }
 form label{
     font-size: 20px;
@@ -34,7 +34,7 @@ form input{
     background-color: #e3e3e3;
     border: none;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 20px;
     padding: 0 0 0 30px;
 }
 form input:focus{
@@ -46,7 +46,6 @@ form input::placeholder{
     height: 50px;
     padding: 0 0 0 20px;   
 }
-
 .container-login{
     height: 610px;
 }
@@ -59,6 +58,9 @@ form input::placeholder{
 .input-form{
     border: 0;
     height: 250px;
+}
+.login-input{
+    gap: 10px;
 }
 
 .input-form input{

@@ -9,11 +9,16 @@
     align-items: center;
     gap:15px;
 }
+.footer-links p{
+    color: none;
+    font-style: none;
+    
+}
 .footer-img-txt h2{
     font-size: 20px;
 }
 .footer h3{
-    font-size: 15px;
+    font-size: 20px;
 }
 .footer p{
     color: #F5F5F5;
@@ -30,7 +35,7 @@
     gap: 15px;
 }
 .footer-redes-img img{
-    width: 30px;
+    width: 40px;
     margin-right: 40px;
 }
 .invisible{
@@ -47,7 +52,6 @@
         height: 700px;
         padding: 30px;
         text-align: center;
-        font-size: 20px;
     }
     .footer-redes img{
         width: 50px;

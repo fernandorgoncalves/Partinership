@@ -1,3 +1,6 @@
+.section-contatos{
+    gap: 30px;
+}
 .container-presentation{
    padding: 30px 0; 
 }
@@ -6,7 +9,7 @@
     padding: 60px 140px 0 0 ;
 }
 .container-text p{
-    font-size: 25px;
+    font-size: 30px;
 }
 .container-button{
     gap: 15px;
@@ -21,7 +24,7 @@
 }
 .container-arrow {
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .container-img{
     display: flex;
@@ -32,4 +35,7 @@
 .container-img img{
     width: 300px;
     align-items: end;
+}
+.input-contato, label{
+    gap: 15px;
 }
