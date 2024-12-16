@@ -30,7 +30,7 @@ function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/login" className="primary-color nav-link">
+                            <Link to="/dashuser" className="primary-color nav-link">
                                 Entre ou Cadastre-se
                             </Link>
                         </li>
